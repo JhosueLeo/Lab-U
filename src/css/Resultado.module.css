@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700;800;900 & display=swap");
+
+.containerGeneral {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  color: #332f30;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 5% 40px 5%;
+  flex-direction: row;
+  margin: 20px;
+}
+.SeparadorHeader {
+  height: 88px;
+}
+
+.containerText {
+  width: 49em;
+  height: 35em;
+  margin: 0;
+}
+
+.txtRed {
+  color: #e03854;
+}
+
+.txtTtl {
+  margin: 0;
+  font-size: 38px;
+  margin-bottom: 30px;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+}
+
+.txtp {
+  margin: 0;
+  font-size: 20px;
+  width: 800px;
+  padding: 10px;
+  line-height: 35px;
+}
+
+.containerMensaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.imgMensaje {
+  margin: 0 50px;
+}
+
+.txtMensaje {
+  padding: 0 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 400px;
+  text-align: justify;
+}
+
+.containerLogin {
+  width: 600px;
+  height: auto;
+  margin: 0;
+  padding: 30px;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+}
+
+.inputEnter {
+  background-color: #dfdede;
+  border-color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 20px;
+}
+
+.inputEnter::placeholder {
+  color: #999;
+  text-align: initial;
+  vertical-align: middle;
+}
+
+.txtLoginRequest {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  font-size: 18px;
+  color: #606060;
+}
+
+.txtCheck {
+  margin: 30px 0 30px 30px;
+  color: #999;
+}
+
+.txtTc {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.txtCl {
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.txtDt {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.checkOpt {
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-right: 10px;
+}
+
+.btnLogin {
+  margin: 30px auto;
+  background-color: #332f30;
+  border-color: #332f30;
+  border-style: none;
+  border-radius: 60px;
+  color: white;
+  padding: 20px 80px;
+}
+
+.btnLogin a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.btnLogin span {
+  color: #ffffff;
+  font-size: 25px; /* Ajusta el tamaño de fuente según lo necesites */
+}
+
+
+
+@media screen and (max-width: 1662px) {
+  .containerGeneral {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .txtp {
+    width: auto;
+  }
+  .containerText {
+    height: auto;
+  }
+  .clase1 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px){
+  .txtMensaje{
+    width: auto;
+  }
+  .containerMensaje {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    text-align: center; /* Centra el contenido en la columna */
+  }
+
+  .imgMensaje {
+    margin-bottom: 20px; /* Espacio entre la imagen y el párrafo */
+  }
+
+  .txtTtl,
+  .txtp {
+    text-align: center; 
+    width: 100%;
+  }
+  .clase1 {
+    text-align: center;
+  }
+}
+
+.txtCarlosServicio {
+  color: #E03854;
+  text-decoration: underline;
+}

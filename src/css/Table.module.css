@@ -1,0 +1,119 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ContenidoButtonCerrar{
+    width: 20%;
+    background-color: #E03854;
+    cursor: pointer;
+}
+
+.usuario{
+    margin-top: 90px;
+    background-color: #E03854;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.usuario .text1{
+    padding: 0;
+    margin: 0;
+    font-size: 38px;
+}
+
+.usuario .text2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table .text{
+    font-size: 30px;
+    font-weight: 600;
+    color: #332F30;
+    margin-left: 10%;
+}
+
+table{
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+   
+}
+
+td{
+    color: #332F30;
+    padding: 1em;
+}
+
+thead{
+    background-color: rgba(224, 56, 84, 0.2);
+}
+
+th{
+    color: #E03854;
+    padding: 1em;
+}
+.ButtonContentCerrar{
+    border-radius: 20px;
+}
+
+
+.cerrar{
+    background-color: #332F30;
+    border-radius: 20px;
+    width: 10em;
+    height: 3em;
+    margin: 2em auto;
+    padding: 0;
+}
+
+.paginationContainer{
+    display: flex;
+    justify-content: end;
+    margin: 1em 10% 0 0;
+}
+
+.paginationContainer input{
+    margin: 0 1em;
+    padding: 0;
+    border-radius: 5px;
+    width: 1.5em;
+    text-align: center;
+}
+
+.paginationContainer img{
+    position: relative;
+    top: 0.25em;
+}
+
+.cerrar a{
+    color: white;
+    text-decoration: none;
+}
+
+.pi .pi-file-pdf {
+    font-size: 25px !important;
+}
+.p-button {
+    background-color: #E03854 !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.5em 1em !important;
+    border-radius: 5px !important;
+    margin: 0 0.5em !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+}

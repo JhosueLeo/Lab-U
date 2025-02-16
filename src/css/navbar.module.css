@@ -1,0 +1,118 @@
+.containerNavbar {
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0px 5px 10px -5px rgba(49, 49, 49, 0.274);
+  transition: 0.3s ease; 
+  
+}
+
+
+.data {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.data span a {
+  text-decoration: none;
+  color: #000;
+}
+
+.data span a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.divider {
+  border: 1px solid #c9c9c953;
+}
+
+.navigationLinks a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #000;
+  font-size: 16px;
+}
+
+.navigationLinks a:hover {
+  color: #e03854;
+  border-bottom: 1px solid #e03854;
+}
+
+.btns a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #e03854;
+  font-size: 16px;
+}
+
+.btns .resultadoBtn {
+  background-color: #ffd9df;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.btnRes {
+  display: none;
+}
+
+@media screen and (max-width: 1180px) {
+  .btnRes {
+    display: block;
+  }
+
+  .navigationLinks,
+  .btns {
+    display: none;
+  }
+
+  .containerNavbar {
+    justify-content: space-between !important;
+  }
+
+  .containerNavbar img {
+    margin-left: 20px;
+  }
+
+  .btnRes {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: #e03854;
+    color: #fff;
+    border: none;
+    width: auto;
+  }
+  .navigationLinksResp,
+  .btnsResp {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 10px 20px;
+  }
+
+  .navigationLinksResp a,
+  .btnsResp a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+  }
+
+  .navigationLinksResp a span:hover,
+  .btnsResp a span:hover {
+    color: #e03854;
+    border-bottom: 1px solid #e03854;
+  }
+}
+
+@media screen and (max-width: 560px) {
+    .social {
+        flex-direction: column;
+    }
+    .socialIcons {
+        margin-top: 20px;
+    }
+}

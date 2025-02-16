@@ -1,0 +1,336 @@
+.TituloPreguntas {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126%;
+    /* 50.4px */
+}
+
+.TituloPreguntas .TituloFrecuentes {
+    color: var(--Fucsia, #E03854);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126%;
+    text-align: center;
+    display: inline;
+
+}
+.linePreguntas{
+    width: 971px;
+}
+.flechabajo{
+    margin-left: 500px;
+}
+.flechabajo2{
+    margin-left: 440px;
+}
+.flechabajo3{
+    margin-left: 447px;
+}
+.PreguntaCont1{
+    display: flex;
+    align-items: center;
+    
+}
+.DispFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.ProcesosS {
+    background-image: url('../img/lineagris.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 350px;
+    
+
+}
+.PreguntasF{
+    margin-left: 160px;
+}
+
+
+.procesoT1 {
+
+    margin-left: 100px;
+    margin-top: -55px;
+    width: 170px;
+
+}
+
+.imagenProceso1 {
+    margin-left: 40px;
+
+    gap: 10px;
+}
+
+.imagenProceso2 {
+    margin-left: 400px;
+}
+
+.imagenProceso1{
+    margin-left: 30px;
+    
+    
+}
+.imagenProceso2{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.imagenProceso3{
+    margin-left: 29px;
+    margin-top: 40px;
+}
+.imagenProceso4{
+    margin-left: 30px;
+    margin-top: 25px;
+}@media (max-width: 1700px){
+    .DispFlex {
+        flex-direction: column; /* Cambia a un diseño de columna */
+        text-align: center; /* Centra el texto si es necesario */
+        
+    }
+    .PreguntasF{
+        margin-left: -15px;
+    }
+}
+@media (max-width: 1140px){
+    .PreguntasF{
+
+ width: 700px;
+    }
+    .linePreguntas{
+        width: 700px;
+    }
+    .flechabajo{
+        margin-left: 340px;;
+    }
+    .flechabajo2{
+        margin-left: 280px;;
+    }
+    .flechabajo3{
+        margin-left: 295px;;
+    }
+}
+@media (max-width: 940px){
+    .PreguntasF{
+ width: 600px;
+    }
+    .linePreguntas{
+        width: 600px;
+    }
+}
+@media (max-width: 740px){
+    .PreguntasF{
+ width: 400px;
+    }
+    .linePreguntas{
+        width: 400px;
+    }
+    .flechabajo{
+        margin-left: 140px;;
+    }
+    .flechabajo2{
+        margin-left: 150px;;
+    }
+    .flechabajo3{
+        margin-left: 200px;;
+    }
+}
+@media (max-width: 530px){
+    .PreguntasF {
+            width: 300px;
+            
+        }
+    .linePreguntas{
+        width: 300px;
+        margin-left: -100px;
+    }
+    .ProcesosS{
+        width: 300px;
+        margin-left: 20px;
+        
+    }
+    .flechabajo{
+        margin-left: 90px;
+       
+    }
+    .flechabajo2{
+        margin-left: 120px;
+    }
+    .flechabajo3{
+        margin-left: 110px;
+    }
+    .procesoT1{
+        margin-top: -45px;
+       
+    }
+    .imagenProceso1,
+    .imagenProceso2,
+    .imagenProceso3,
+    .imagenProceso4{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 450px){
+
+    
+    .Pregunta1,
+    .Pregunta2,
+    .Pregunta3{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 1700px) {
+    .DispFlex {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .proceso1 {
+        width: 20px;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .PreguntasF {
+        margin-left: -20px;
+        width: 700px;
+    }
+
+    .preguntaImage {
+        width: 700px;
+    }
+    .preguntasFrecuentes{
+        width: 700px;
+    }
+
+}
+@media (max-width: 940px){
+    .PreguntasF{
+ width: 600px;
+    }
+    .preguntaImage{
+        width: 600px;
+    }
+}
+@media (max-width: 740px){
+    .preguntaImage{
+        width: 400px;
+        
+    }
+  
+    .PreguntaCont1{
+        width: 400px;
+        margin-left: 70px;
+    }
+}
+@media (max-width: 730px){
+    .preguntasFrecuentes{
+        width: 500px;
+    }
+}
+@media (max-width: 630px){
+    .PreguntasF{
+        width: 500px;
+    }
+}
+@media (max-width: 590px){
+    .PreguntaCont1{
+        gap: -310px;
+    }
+}
+@media (max-width: 540px){
+    .PreguntasF{
+        width: 400px;
+    }
+    .flechabajo,.flechabajo2,.flechabajo3{
+        margin-left: 10px;
+    }
+    .PreguntaCont1,.PreguntaCont2,.PreguntaCont3{
+        margin-left: 20px;
+        width: 300px;
+        
+    }
+}
+@media (max-width: 530px){
+    .preguntaImage{
+        width: 300px;
+        margin-left: -20px;
+    }
+    .preguntasFrecuentes{
+        width: 300px;
+    }
+    .ProcesosS{
+        width: 300px;
+    }
+    .procesoT1 {
+
+        margin-left: 70px;
+    
+    
+    }
+    .PreguntasF{
+        margin-left: 40px;
+        width: 300px;
+        margin-left: -40px;
+    }
+
+    
+}
+
+@media (max-width: 400px){
+    .ProcesosS{
+        width: 220px;
+        margin-left: -65px;
+    }
+}
+@media (max-width: 350px){
+    .ProcesosS{
+        width: 200px;
+    }
+    .preguntasFrecuentes{
+        width: 200px;
+        margin-left: -20px;
+    }
+    .ContenidoPreguntas{
+        width: 200px;
+    }
+    .preguntaImage{
+       width: 200px;
+    }
+}
+@media (max-width: 360px){
+    .PreguntasF{
+        margin-left: 40px;
+        width: 200px;
+        margin-left: -40px;
+    }
+    .PreguntaCont1{
+        width: 200px;
+        
+    }
+    .procesoT1{
+        width: 140px;
+    }
+    .ProcesosS{
+        margin-left: -20px;
+    }
+    .Pregunta1,
+    .Pregunta2,
+    .Pregunta3{
+        width: 150px;
+    }
+}

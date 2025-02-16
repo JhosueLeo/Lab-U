@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700;800;900 & display=swap");
+
+/*---------------------CUERPO-1---------------------*/
+
+.container {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  position: relative;
+}
+
+.baner {
+  width: 100%;
+  height: auto;
+}
+
+.textBaner {
+  position: absolute;
+  font-size: 48px;
+  top: 50%;
+  right: -180px;
+  font-family: "Poppins";
+  transform: translate(-50%, -50%);
+  color: #332f30;
+  word-spacing: 30px;
+  font-size: 40px;
+}
+
+.textBaner span {
+  color: #e03854;
+}
+
+/*---------------------PLAN---------------------*/
+
+.plan {
+  position: relative;
+  top: -3.9em;
+  right: -68%;
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+  text-align: center;
+  overflow: hidden;
+}
+
+.plan p {
+  position: relative;
+  top: 0;
+  font-size: 40px;
+}
+
+.plan img {
+  position: relative;
+  top: 10px;
+}
+
+/*---------------------CUERPO-2---------------------*/
+
+.Info {
+  background-color: white;
+  margin-top: -7.5em;
+  z-index: -1;
+}
+
+.Info .Info2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 13em 0 11em;
+}
+
+.Info .plan2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Info .info {
+  margin-top: 6em;
+}
+
+.Info .manos {
+  margin-top: 5em;
+  width: 8em;
+  height: auto;
+}
+
+.Info .text {
+  margin: 0;
+  font-size: 30px;
+}
+
+.Info .text img {
+  position: relative;
+  top: 10px;
+  width: 1em;
+  height: auto;
+}
+
+.Info .info1 {
+  font-size: 48px;
+  text-align: justify;
+  color: #332f30;
+  font-family: "Poppins";
+}
+
+.Info .info2 {
+  padding-left: 1.5em;
+  font-size: 24px;
+  text-align: justify;
+  font-family: "Poppins";
+  color: #332f30;
+}
+
+.Info .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5em 9em 1em 9em;
+}
+
+.Info .cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8em 9em;
+}
+
+.Info .dat {
+  padding: 0 0 0 1em;
+}
+
+.Info .dat1 {
+  position: relative;
+  top: -0.5em;
+  right: 3em;
+  padding-top: 0.5em;
+  font-size: 20px;
+  padding-left: -90em;
+  color: #332f30;
+  font-family: "Poppins";
+  text-align: justify;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #332f30;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+.Info .dato {
+  margin: 0;
+  padding-top: 0.5em;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #332f30;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+.Info .laso {
+  width: 2em;
+}
+
+.Info .bote {
+  width: 1.5em;
+}
+
+.Info .cerebro {
+  width: 2em;
+}
+
+.Info .corazon {
+  position: relative;
+  top: -0.5em;
+  width: 2em;
+}
+
+.Info .persona {
+  position: relative;
+  top: -0.5em;
+  width: 2em;
+}
+
+.Info .atomo {
+  position: relative;
+  top: -0.5em;
+  width: 2.5em;
+}
+
+.Info .card1, .Info .card2, .Info .card3 {
+  padding: 1em 0 0 2em;
+  border-radius: 20px;
+  width: 450px;
+  height: 350px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+  color: #332f30;
+  text-align: justify;
+}
+
+.Info .card4, .Info .card5, .Info .card6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0 0 2em;
+  border-radius: 20px;
+  width: 450px;
+  height: 100px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card5 .dat1 {
+  margin-left: 90px;
+}
+
+.Info .card5 .dat1 {
+  margin-left: 90px;
+}
+
+.Info .btn {
+  border: 0px solid #000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Info .btn1 {
+  background-color: #332f30;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  margin-right: 80px;
+  height: 69px;
+  padding: 10px 60px;
+}
+
+.Info .btn2 {
+  background-color: #e03854;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  height: 69px;
+  padding: 10px 60px;
+}
+
+.Info .flecha {
+  position: relative;
+  top: 0.25em;
+  padding-left: 15px;
+}
+
+.Info .certi {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.Info .text1 {
+  font-size: 48px;
+  color: #332f30;
+}
+
+.Info .text2 {
+  font-size: 24px;
+}
+
+.Info .certi2 {
+  margin: 30px 0 40px 0;
+}
+
+.Info .certi2 img {
+  margin: auto;
+  padding: 0 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+@media screen and (max-width: 1440px) {
+  .textBaner {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .textBaner {
+    font-size: 30px;
+  }
+  .cards {
+    justify-content: center !important;
+  }
+  .info .info2 {
+    padding-left: 0px;
+  }
+  .cards .card1, .cards .card2, .cards .card3 {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .Info2 {
+    padding: 0 !important;
+  }
+  .cards2 {
+    justify-content: center !important;
+  }
+  .cards2 .card4, .cards2 .card5, .cards2 .card6 {
+    margin: 10px;
+  }
+  .container .plan {
+    right: -60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .textBaner {
+    font-size: 24px;
+  }
+  .container .plan {
+    right: -56%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .textBaner {
+    display: none;
+  }
+  .Info .btn1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .container .plan {
+    right: -43%;
+  }
+  .Info2 .plan2 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .plan {
+    display: none;
+  }
+  .Info2 .plan2 {
+    margin-top: 80px;
+  }
+  .btn {
+    width: 80%;
+    margin: auto;
+  }
+  .Info .cards {
+    width: 80%;
+    padding: 0;
+    margin: 20px auto;
+  }
+  .Info .card1, .Info .card2, .Info .card3 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .info {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .info .info1 {
+    text-align: center;
+  }
+  .info .info2 {
+    text-align: center;
+  }
+  .Info .cards2 {
+    padding: 0;
+  }
+}

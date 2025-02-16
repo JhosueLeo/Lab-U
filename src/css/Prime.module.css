@@ -1,0 +1,440 @@
+.baner {
+  width: 100%;
+}
+
+/*---------------------PLAN---------------------*/
+
+.plan {
+  position: relative;
+  top: -3.9em;
+  right: -68%;
+  background-color: #fff;
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+  text-align: center;
+  overflow: hidden;
+}
+
+.plan .text_prime {
+  font-size: 45px;
+}
+
+/*---------------------CUERPO-2---------------------*/
+
+.Info {
+  background-color: #fff;
+}
+
+.Info .Info2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Info .text {
+  font-size: 38px;
+}
+
+.Info .plan2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info .info1 {
+  font-size: 43px;
+}
+
+.Info .info2 {
+  font-size: 23px;
+}
+
+.Info .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.Info .cards1 {
+  padding: 0;
+}
+
+.Info .cards2 {
+  display: block;
+  padding: 0;
+}
+
+.Info .cards3 {
+  display: block;
+}
+
+.Info .card4,
+.Info .card5,
+.Info .card6,
+.Info .card7 {
+  position: relative;
+  top: 20px;
+  margin-bottom: 43px;
+}
+
+.Info .dat {
+  padding: 15px 40px;
+}
+
+.Info .dat1 {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.Info .dato {
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.Info .laso {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .bote {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .cerebro {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .corazon {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .persona {
+  padding-left: 50px;
+  height: 45px;
+}
+
+.Info .atomo {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .venas {
+  padding-left: 20px;
+  height: 45px;
+}
+
+.Info .card1 {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card2 {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .card7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Info .btn1 {
+  background-color: #332f30;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 20px;
+  border: none;
+  margin-right: 70px;
+  height: 64px;
+  padding: 10px 60px;
+}
+
+.Info .btn2 {
+  background-color: #e03854;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 20px;
+  border: none;
+  margin-left: 70px;
+  height: 64px;
+  padding: 10px 60px;
+}
+
+.Info .flecha {
+  padding-left: 15px;
+}
+
+.Info .certi {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Info .text1 {
+  font-size: 45px;
+  padding: 40px 0 0 0;
+}
+
+.Info .text2 {
+  font-size: 25px;
+  padding: 20px 0 0 0;
+}
+
+.Info .certi2 {
+  margin: 30px 0 40px 0;
+  display: flex;
+}
+
+.Info .certi2 img {
+  margin: auto;
+  padding: 0 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .texxt {
+  padding: 25px;
+}
+
+.Info .iso {
+  font-size: 28px;
+}
+
+.Info .textt {
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.Info .cardcerti1 {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 10px 0 10px 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .cardcerti2 {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 10px 0 10px 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.Info .cardcerti3 {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 10px 0 10px 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(51, 47, 48, 0.5);
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .textBaner {
+    font-size: 34px;
+  }
+  .plan {
+    right: -63%;
+  }
+  .Info .Info2 {
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Info2 .plan2 {
+    margin-right: 20px;
+  }
+  .info {
+    width: 650px;
+    margin-left: 20px;
+  }
+  .cards .card1, .cards .card2, .cards .card3 {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .textBaner {
+    font-size: 30px;
+  }
+  .cards {
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+  .info .info2 {
+    padding-left: 0px;
+  }
+  .cards .card1, .cards .card2, .cards .card3 {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .plan {
+    right: -56%;
+  }
+  .Info2 {
+    padding: 0 !important;
+    flex-direction: column;
+  }
+  .Info2 .info {
+    text-align: center;
+  }
+  .cards2 {
+    justify-content: center !important;
+  }
+  .cards2 .card4, .cards2 .card5, .cards2 .card6 {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .textBaner {
+    font-size: 24px;
+  }
+  .container .plan {
+    right: -56%;
+  }
+  .plan {
+    right: -50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .textBaner {
+    display: none;
+  }
+  .Info .btn1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .container .plan {
+    right: -43%;
+  }
+  .Info2 .plan2 {
+    margin-top: 30px;
+  }
+  .plan {
+    right: -38%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .plan {
+    display: none;
+  }
+  .Info2 .plan2 {
+    margin-top: 80px;
+  }
+  .btn {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn .btn1, .btn .btn2 {
+    padding: 10px;
+    width: auto;
+  }
+
+  .btn .btn2 {
+    margin: 0;
+  }
+
+  .Info .cards {
+    width: 80%;
+    padding: 0;
+    margin: 20px auto;
+  }
+  .Info .card1, .Info .card2, .Info .card3 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .info {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .info .info1 {
+    text-align: center;
+  }
+  .info .info2 {
+    text-align: center;
+  }
+  .Info .cards2 {
+    padding: 0;
+  }
+}

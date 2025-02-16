@@ -1,0 +1,58 @@
+.title {
+    font-size: 48px;
+}
+
+.title .text {
+    color: #E03854;;
+}
+
+.isoContainer{
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 180px;
+    height: 325px;
+    background-color: #fff;
+    border-radius: 80px;
+    box-shadow: 0px 2.516px 33.969px 0px rgba(134, 134, 134, 0.15);
+    margin: 10px 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.box img {
+    margin-top: 20px;
+}
+
+.box .titleBox {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.box .dividerBox {
+    border: 1px solid #E03854;
+    width: 80%;
+}
+
+.box .descBox {
+    font-size: 17px;
+}
+
+.descAbout {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.descAbout p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 1130px) {
+    .isoContainer {
+        flex-wrap: wrap;
+    }
+}

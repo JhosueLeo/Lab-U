@@ -1,0 +1,936 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  /*overflow-x: hidden;*/
+  font-family: "Poppins";
+}
+
+.imagenuno {
+  width: 100%;
+  height: 100%;
+}
+
+.container-texto-analisis {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.analisis-clinico {
+  width: 100%;
+  position: relative;
+}
+
+.texto-superpuesto {
+  width: 450px;
+  margin-left: 5%;
+  font-size: 38px;
+  font-family: "Poppins";
+  color: #332F30;
+}
+
+.texto-bajo {
+  width: 450px;
+  margin-left: 5%;
+  font-family: "Poppins";
+  color: #606060;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bttn {
+  margin-top: 20px;
+  width: 190px;
+  height: 47px;
+  border: none;
+  border-radius: 34.5px;
+  margin-left: 5%;
+  background-color: #332f30;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.textos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 65px;
+}
+
+.textos .textouno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+  border-radius: 10px;
+  height: 220px;
+}
+
+.textos .consulta-resultados {
+  font-size: 50px;
+  font-weight: 700;
+  color: #332F30;
+  margin-left: 40px;
+}
+
+.textos .textodos {
+  font-size: 18px;
+  text-align: justify;
+  width: 500px;
+  margin-left: 90px;
+  color: #332F30;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bttn2 {
+  width: 300px;
+  height: 47px;
+  border: none;
+  border-radius: 34.5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #332f30;
+  cursor: pointer;
+  padding: 0;
+}
+
+.textoconimagen {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  background: rgba(51, 47, 48, 0.8);
+}
+
+.imagendos {
+  width: 50%;
+}
+
+.textocolorfondo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+}
+
+.pcolor {
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h2color {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container-consulta {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bttn-consulta {
+  width: 300px;
+  height: 47px;
+  border: none;
+  border-radius: 34.5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #332f30;
+  cursor: pointer;
+}
+
+.circulos-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circulo {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.circulo-color1 {
+  background-color: #5c5959;
+}
+
+.circulo-color2 {
+  background-color: #d9d9d9;
+}
+
+.porqueeleccion {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #332F30;
+}
+
+.textotres {
+  font-size: 18px;
+  text-align: center;
+  color: #332F30;
+  font-weight: 700;
+  padding: 0 100px;
+  margin-bottom: 50px;
+}
+
+.eleccion {
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-imagenes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.elemento {
+  text-align: center;
+  font-size: 15px;
+  width: 305px;
+  padding: 10px;
+}
+
+.elemento img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.linea {
+  width: 1px;
+  background-color: #e03854;
+  border: none;
+  margin: 0 5px;
+}
+
+.contenedormicroscopio {
+  display: flex;
+  background: linear-gradient(107deg, #E03854 1.74%, #E03854 1.75%, #DC8C9A 104.18%);
+  align-items: center;
+}
+
+.recipiente {
+  width: 50%;
+}
+
+.acercanosotrosbtn {
+  width: 600px;
+  position: absolute;
+  border: none;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  font-family: "Poppins";
+  background-color: #332f30;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.quienessomos {
+  text-align: center;
+  background-color: white;
+  height: 600px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.quienesh3 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.parrafoquienessomos {
+  padding-bottom: 20px;
+  width: 350px;
+  margin: 0 45px;
+}
+
+.microscopiouno {
+  width: 200px;
+}
+
+.vermasbtn {
+  width: 200px;
+  height: 47px;
+  border: none;
+  border-radius: 34.5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #332f30;
+  cursor: pointer;
+  margin: 0 20%;
+}
+
+.nuestrascertificacionesh3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #332F30;
+}
+
+.parrafocertificaciones {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #332F30;
+  padding: 0 140px;
+  margin: 0;
+}
+
+.containercertificados {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificadosiso9001 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificadosiso27001 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificadosisoimagen img {
+  margin: 30px 20px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(51, 47, 48, 0.16);
+}
+
+.certificadosisoimagen {
+  margin-bottom: 40px;
+}
+
+.container_general_principal {
+  background-color: #332F30;
+  display: flex;
+}
+
+.container_text_principal {
+  padding: 40px 80px;
+  color: white;
+  width: 50%;
+  font-weight: 700;
+}
+
+.txt_red_principal {
+  color: #E03854;
+}
+
+.container_contacto_principal {
+  background: white;
+  width: 500px;
+  border-radius: 30px;
+  margin: 60px 60px 60px 0;
+  padding: 20px 40px;
+}
+
+.container_contacto_principal h2 {
+  text-align: center;
+}
+
+.contact-1_principal {
+  display: flex;
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.contact-2_principal {
+  display: flex;
+  font-size: 18px;
+}
+
+.contact-3_principal {
+  display: flex;
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.consejo_principal {
+  margin-top: 60px;
+  font-size: 18px;
+  width: 400px;
+}
+
+.txt_ttl_principal {
+  font-size: 35px;
+}
+
+.txt_p_principal {
+  font-size: 18px;
+}
+
+.input_enter_principal {
+  font-weight: 500;
+  font-size: 15px;
+  color: #DFDEDE;
+  height: 50px;
+  background-color: #EBEBEB;
+  border: 4px solid #DFDEDE;
+  border-radius: 14px;
+  margin: 10px 0;
+  padding-left: 20px;
+  width: -webkit-fill-available;
+}
+
+#mensaje {
+  padding-top: 10px;
+  height: 90px;
+}
+
+.txt_container_contacto_principal {
+  color: #606060;
+  font-weight: 700;
+}
+
+.txt_tc_principal {
+  color: #332F30;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+.txt_check_principal {
+  accent-color: #332F30;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+.btn_contacto_principal {
+  width: 200px;
+  height: 47px;
+  border: none;
+  border-radius: 34.5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #332f30;
+  cursor: pointer;
+}
+
+.container-button-contacto_principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container_terminos_principal {
+  display: flex;
+  margin: 20px 0;
+}
+
+.container-microscopio {
+  display: contents;
+}
+
+.container-img-button {
+  width: 50%;
+}
+.slick-prev,
+.slick-next {
+  z-index: 999 !important;
+}
+.slick-prev {
+  left: 25px !important;
+}
+.slick-next {
+  right: 25px !important;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1300px) {
+  .quienessomos {
+    height: 450px;
+  }
+
+  .microscopiouno {
+    width: 120px;
+  }
+
+  .parrafoquienessomos {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .acercanosotrosbtn {
+    width: 400px;
+    font-size: xx-large;
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+
+  .container-consulta {
+    margin-top: 20px;
+  }
+
+  .elemento {
+    font-size: 14px;
+  }
+
+  .texto-superpuesto {
+    width: 350px;
+    font-size: 28px;
+  }
+
+  .texto-bajo {
+    font-size: 14px;
+    width: 420px;
+  }
+
+  .txt_p_principal {
+    font-size: 16px;
+  }
+
+  .contact-1 {
+    font-size: 16px;
+  }
+
+  .contact-2 {
+    font-size: 16px;
+  }
+
+  .contact-3 {
+    font-size: 16px;
+  }
+
+  .consejo_principal {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .parrafocertificaciones {
+    font-size: 20px;
+  }
+
+  .container_contacto_principal {
+    font-size: 14px;
+  }
+
+  .txt_tc_principal {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .certificadosiso9001 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .certificadosiso27001 {
+    display: flex;
+  }
+
+  .acercanosotrosbtn {
+    width: 400px;
+    font-size: xx-large;
+    margin-left: 5.5%;
+  }
+
+  .pcolor {
+    font-size: 16px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .textos .consulta-resultados {
+    font-size: 45px;
+    margin-left: 30px;
+  }
+
+  .textos .textodos {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .texto-superpuesto {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  .texto-bajo {
+    width: 350px;
+    font-size: 13px;
+  }
+
+  .bttn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 970px) {
+  .quienessomos {
+    height: 400px;
+  }
+
+  .vermasbtn {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .microscopiouno {
+    width: 100px;
+  }
+
+  .parrafoquienessomos {
+    font-size: 13px;
+    width: 220px;
+  }
+
+  .quienesh3 {
+    margin: 20px 0;
+  }
+
+  .acercanosotrosbtn {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .pcolor {
+    font-size: 14px;
+  }
+
+  .acercanosotrosbtn {
+    margin-left: 4%;
+  }
+
+  .bttn-consulta {
+    height: 40px;
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .textos .textodos {
+    font-size: 15px;
+  }
+
+  .textotres {
+    font-size: 15px;
+  }
+
+  .porqueeleccion {
+    font-size: 28px;
+  }
+
+  .parrafocertificaciones {
+    font-size: 15px;
+  }
+
+  .nuestrascertificacionesh3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .acercanosotrosbtn {
+    margin-left: 3.5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container_general_principal {
+    display: block;
+  }
+
+  .container_contacto_principal {
+    margin: 0 5%;
+    width: auto;
+  }
+
+  .container_general_principal {
+    padding-bottom: 60px;
+  }
+
+  .container_text_principal {
+    width: auto;
+  }
+
+  .textos .consulta-resultados {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .textos .textouno {
+    height: 180px;
+  }
+
+  .acercanosotrosbtn {
+    width: 350px;
+    font-size: x-large;
+  }
+
+  .quienessomos {
+    height: 350px;
+  }
+
+  .quienesh3 {
+    font-size: 22px;
+  }
+
+  .parrafoquienessomos {
+    font-size: 12px;
+  }
+
+  .microscopiouno {
+    width: 80px;
+  }
+
+  .vermasbtn {
+    margin: 0 10%;
+  }
+
+  .seccion-imagenes {
+    display: grid;
+  }
+
+  .textos {
+    display: grid;
+    padding: 65px 0 10px 0;
+  }
+
+  .textos .textodos {
+    margin: 30px 0px;
+    width: 450px;
+  }
+
+  .seccion-titulo {
+    font-size: 18px;
+  }
+
+  .seccion-eleccion {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .imagenuno {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .texto-bajo {
+    width: 310px;
+  }
+
+  .imagendos {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .recipiente {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .pcolor {
+    width: 280px;
+  }
+
+  .parrafocertificaciones {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .acercanosotrosbtn {
+    width: 300px;
+    margin-left: 4.5%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .imagenuno {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-texto-analisis {
+    position: relative;
+  }
+
+  .texto-superpuesto {
+    font-size: 28px;
+    width: 400px;
+    margin-right: 6%;
+    margin-left: 6%;
+  }
+
+  .texto-bajo {
+    font-size: 15px;
+    margin-right: 6%;
+    margin-left: 6%;
+    width: auto;
+  }
+
+  .bttn {
+    margin-right: 6%;
+    margin-left: 6%;
+  }
+
+  .textos .consulta-resultados {
+    font-size: 28px;
+  }
+
+  .textos .textouno {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contenedormicroscopio {
+    flex-direction: column;
+  }
+
+  .recipiente {
+    width: 100%;
+    height: 400px;
+  }
+
+  .acercanosotrosbtn {
+    margin: auto;
+    position: relative;
+    translate: 0 -200px;
+  }
+
+  .imagendos {
+    width: 100%;
+    height: 400px;
+  }
+
+  .textoconimagen {
+    flex-direction: column;
+  }
+
+  .container-microscopio {
+    display: flex;
+  }
+
+  .quienessomos {
+    margin-bottom: 40px;
+  }
+
+  .h2color {
+    font-size: 28px;
+  }
+
+  .textocolorfondo {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pcolor {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .textos {
+    padding: 8%;
+  }
+  .textos .textouno {
+    width: auto;
+  }
+  .textos .textodos {
+    width: auto;
+  }
+  .textocolorfondo{
+    padding: 0 8%;
+    margin: 0;
+    width: auto;
+  }
+  .texto-superpuesto{
+    width: auto;
+  }
+  .texto-superpuesto{
+    margin: 8%;
+  }
+  .textotres{
+    padding: 0 8%;
+  }
+  .parrafocertificaciones{
+    padding: 0 8%;
+  }
+  .container_text_principal{
+    padding: 8%;
+  }
+  .consejo_principal{
+    width: auto;
+  }
+  .nuestrascertificacionesh3{
+    padding: 0 8%;
+  }
+}
+.contact-1_principal p,
+.contact-2_principal p,
+.contact-3_principal p {
+  margin-left: 12px; /* Ajusta el margen izquierdo para separar el texto del icono */
+}
+
+.container_contacto_principal {
+  margin-left: 110px; /* Ajusta el margen izquierdo para mover el formulario a la derecha */
+}

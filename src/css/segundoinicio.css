@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700;800;900 & display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.container-segundo-inicio {
+    background-color: white;
+    color: rgba(51, 47, 48, 1);
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 140px 25px;
+}
+
+.titulo-texto {
+    font-size: 48px;
+}
+
+.txt-red {
+    color: rgba(224, 56, 84, 1);
+}
+
+.txt-p {
+    margin-top: 50px;
+    font-size: 16px;
+    width: 550px;
+    text-align: justify;
+}
+
+.boton {
+    width: 200px;
+    height: 56px;
+}
+
+.tipo-examenes {
+    /* translate: 50 100px; */
+    margin-left: 80px;
+}
+
+.examenes-p1, .examenes-p2, .examenes-p3 {
+    margin-top: 2%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.container-examenes, .container-examenes-2, .container-examenes-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.card-examenes {
+    width: 180px;
+    margin: 0 40px;
+    text-align: center;
+    font-size: 16.71px;
+    font-family: 'Poppins';
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25.68px;
+    box-shadow: 0px 2.6567654609680176px 14.700769424438477px 2.6567654609680176px rgba(204, 204, 204, 0.25);
+    /* border: 1px solid black;  */
+    /* transition: border-color 0.3s ease; */
+}
+
+
+.card-examenes:hover {
+    cursor: pointer;
+    /* border-color: red; */
+    border-bottom: 3px solid #E03854;
+    /* border-color: 1px solid #E03854; */
+}
+
+/* .card-examenes .seccion-imagen {
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .seccion-imagen {
+    width: 100px;
+    height: 30px;
+} */
+
+.anatomia, .biologia, .bioquimica, .hematologia, .inmunobioquimica, .microbiologia, .urianalisis, .genetica, .coagulacion {
+    width: 100px;
+    height: auto;
+}
+
+/* Estamos listo para atenderte */
+
+.container_general_atenderte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF3F5;
+    
+  }
+  
+  .titulo_atencion {
+    color: var(--Negro-gris, #332F30);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 40px 0 13px 0;
+  
+  }
+  
+  .titulo_atencion::after {
+    content: "atenderte!";
+    color: var(--Negro-gris, #E03854);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .container_contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 30px;
+  }
+  
+  .linea_vertical {
+    width: 1px; 
+    height: 35px; 
+    background-color: #332F30; 
+    margin: 0 25px 0 25px;
+  }
+  
+  .container_contact img {
+    margin: 0 10px;
+    width: 34px;
+    height: 29.906px;
+  }
+  
+  .contac_num {
+    color: var(--Negro-gris, #332F30);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  
+  .contac_email {
+    color: var(--Negro-gris, #332F30);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  
+  .btn_consultar_atencion {
+    display: inline-flex;
+    padding: 5px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    background: var(--Fucsia, #E03854);
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 50px 0;
+    cursor: pointer;
+  
+  } 
+  
+  
+  .btn_consultar_atencion::after {
+    content: ">";
+    font-size: 25px;
+  }
+  /* Media -> Estamos listo para atenderte */
+  @media screen and (max-width: 530px) {
+    .container_contact {
+        flex-direction: column;
+    }
+
+    .linea_vertical {
+        width: 35px; 
+        height: 1px; 
+        background-color: #332F30; 
+        margin: 11px 0 25px 0;
+    }
+   }
+
+   
+/* conocenos mas2 */
+.container_conocenosmas {
+  display: flex;
+}
+
+
+.botton_conocenos {
+  display: flex;
+  align-items: center;
+  width: 465px;
+}
+.botton_conocenos p {
+  color: var(--Negro-gris, #332F30);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.arrowimgconocenos {
+  margin: 1em;
+}
+.container_texto_conocenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.fondo_color_quienes {
+  width: 100%;
+}
+
+.container_somos {
+  background-color: #FFF3F5;
+}
+.titulo_acerca p{
+  color: var(--Negro-gris, #332F30);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126%;
+}
+.titulo_somos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.titulo_somos p {
+  width: 465px;
+  color: var(--Fucsia, #E03854);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126%;
+  margin: 0;
+  padding-top: 2em;
+}
+.parrafo_acerca {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.parrafo_acerca p {
+  width: 465px;
+  color: var(--Negro-gris, #332F30);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 3.5em;
+}
+
+.img_acerca {
+  margin-left: 3em;
+  background-image: url(../img/acerca_de_nosotros.svg);
+  width: 50%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1080px) {
+
+  .container_conocenosmas {
+    flex-direction: column;
+  }
+  .container_texto_conocenos {
+    width: 100%;
+  }
+  .img_acerca {
+    height: 630px;
+    width: 100%;
+    margin: 2em 0 0;
+  }
+  
+}
+
+@media screen and (max-width: 520px) {
+  .botton_conocenos {
+    width: 265px;
+  }
+  .botton_conocenos p {
+    font-size: 16px;
+  }
+  .titulo_acerca p {
+    font-size: 28px;
+  }
+  .titulo_somos p {
+    width: 265px;
+    font-size: 24px;
+  }
+  .parrafo_acerca p {
+    width: 265px;
+  }
+}

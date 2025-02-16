@@ -1,0 +1,129 @@
+.Nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-analissi-tabla{
+  width: 80%;
+}
+.textTitulo2 {
+  margin-right: 20px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(51, 47, 48, 1);
+}
+
+.inputtt {
+  font-family: var(--font-family);
+  font-feature-settings: var(--font-feature-settings, normal);
+  font-size: 1rem;
+  color: #4b5563;
+  background: #ffffff;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #d1d5db;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+  box-shadow 0.2s;
+  appearance: none;
+  border-radius: 6px;
+  width: 30%;
+  margin-right: 20px;
+  height: 50px;
+}
+
+.RadioTxt {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+}
+
+.tabla-analisis {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.tabla-analisis th,
+.tabla-analisis td {
+  padding: 10px;
+}
+
+.tabla-analisis th {
+  background: rgba(224, 56, 84, 0.2);
+}
+
+.tabla-analisis a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ContenedorTabla {
+  overflow-x: scroll;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.detalle {
+  padding: 5px;
+  align-items: center;
+  border-radius: 34px;
+  background-color: rgba(224, 56, 84, 0.1);
+  border: 0px solid;
+  min-width: 116px;
+  color: rgba(224, 56, 84, 1);
+  font-size: 18px;
+}
+
+.centrarDE{
+    justify-content: center;
+    display: flex;
+}
+
+/* .tabla-analisis th.detalle {
+    text-align: center;
+} */
+
+.paginationContainer{
+    display: flex;
+    justify-content: end;
+    margin: 1em 10% 0 0;
+    padding-top: 20px;
+    /* left: 1681px; */
+}
+
+.paginationContainer input{
+    margin: 0 1em;
+    padding: 0;
+    border-radius: 5px;
+    width: 1.5em;
+    text-align: center;
+}
+
+.paginationContainer img{
+    position: relative;
+    top: 0.25em;
+}
+@media screen and (max-width:1117px) {
+  .textTitulo2{
+    font-size: 20px;
+  }
+  .inputtt{
+    height: 40px;
+  }
+}
+@media screen and (max-width:925px) {
+  .Nav{
+    justify-content: start;
+    }
+    .inputtt{
+      width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+.p-accordion-header a {
+    font-size: 30px !important;
+    padding: 30px !important;
+    margin-bottom: 30px;
+}
+
+.p-accordion-header-text {
+    line-height:2 !important;
+}
+
+.p-accordion .p-component {
+    margin: 30px !important;
+}

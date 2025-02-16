@@ -1,0 +1,59 @@
+.card {
+    padding: 30px;
+}
+
+.card .tit_contac h2 {
+    text-align: center;
+}
+
+.card .form_pre {
+    font-size: 20px;
+    font-weight: 700;
+    color: #606060;
+}
+
+.input-obj {
+    text-indent: 20px;
+}
+
+#nombre, #telefono, #correo {
+    width: 565px;
+    height: 60px;
+    border-radius: 14px;
+    border: 2px solid #DFDEDE;
+    background-color: #DFDEDE;
+}
+
+#mensaje {
+    width: 565px;
+    height: 148px;
+    border-radius: 14px;
+    border: 2px solid #DFDEDE;
+    background-color: #DFDEDE;
+}
+
+.card::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.checkbox_label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #332F30;
+}
+
+.button_form {
+    width: 241.39px;
+    height: 69px;
+    border-radius: 34.5px;
+    background-color: #332F30;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 50px auto;
+}
