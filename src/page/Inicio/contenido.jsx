@@ -22,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <App />
-        <WatsonChat />  {/* 👈 Agrega el chatbot aquí */}
+        <WatsonChat />  
     </BrowserRouter>
 );
 
