@@ -44,6 +44,8 @@ import tipo9Examen from "../../img/tipo9Examen.svg";
 import flecharoja from "../../img/flecharoja.svg";
 import hospital from "../../img/hospitalimg.svg";
 import arrowsede from "../../img/arrow-right.svg";
+import WatsonChat from "../../WatsonChat.js";
+
 
 export default function PageInicio() {
   const settings = {
@@ -319,6 +321,8 @@ export default function PageInicio() {
         </div>
 
       </div>
+
+      <WatsonChat />
 
     </>
   );

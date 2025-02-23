@@ -5,6 +5,13 @@
   font-family: "Poppins";
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
+  margin: 0;
+  padding: 0;
+}
+
 .SeparadorHeader {
   height: 88px;
 }
@@ -228,18 +235,7 @@
   margin-top: -20px;
 }
 
-.Contenedor-resultado {
-  width: 762px;
-  height: 183px;
-  flex-shrink: 0;
-  border-radius: 25.682px;
-  background: #FFF;
-  box-shadow: 0px 2.657px 14.701px 2.657px rgba(204, 204, 204, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 35px;
-}
+
 .SegContenedorResultado{
   display: flex;
   flex-direction: column;
@@ -1345,11 +1341,6 @@ line-height: 126%;
     width: 400px;
   }
 
-  .Contenedor-resultado {
-    width: 700px;
-
-    gap: 20px;
-  }
 
   .textos .textodos {
 
@@ -1672,10 +1663,6 @@ width: 450px;
     width: 186px;
   }
 
-  .Contenedor-resultado {
-    gap: 15px;
-  }
-
   .containercertificados {
 
     top: 500px;
@@ -1702,10 +1689,6 @@ width: 450px;
   .resultado {
     text-align: center;
     margin: 20px auto;
-  }
-
-  .Contenedor-resultado {
-    margin: 0px auto;
   }
 
   .textos .textouno {
@@ -1860,9 +1843,6 @@ width: 450px;
     margin: 20px auto;
   }
 
-  .Contenedor-resultado {
-    margin: 0px auto;
-  }
 
   .textos .textouno {
     height: 10px;
@@ -1936,13 +1916,30 @@ width: 450px;
 
   .Contenedor-resultado {
     width: 100%;
-    height: 389px;
-    margin: 0px auto;
+    max-width: 762px; /* Mantiene el ancho máximo */
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    flex-shrink: 0;
+    border-radius: 25.682px;
+    background: #FFF;
+    box-shadow: 0px 2.657px 14.701px 2.657px rgba(204, 204, 204, 0.25);
     display: flex;
-    flex-direction: column;
-    
-    margin-top: 30px;
-  }
+    flex-direction: column; /* Para mantener el diseño flexible */
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 30px auto; /* Centrado */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .Contenedor-resultado {
+        width: 90%; /* Usa un porcentaje en lugar de un tamaño fijo */
+        padding: 15px;
+        gap: 20px;
+    }
+}
+
   .TerContenedorResultado{
     display: flex;
     flex-direction: column;

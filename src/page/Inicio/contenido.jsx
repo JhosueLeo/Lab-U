@@ -16,6 +16,15 @@ import telefono_img from "../../img/telefono.svg";
 import esquema_img from "../../img/mapa_pag.svg";
 import Slider from "react-slick";
 import "../../css/deco-contenido.css";
+import WatsonChat from '../../WatsonChat'; // 👈 Importa el chatbot
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <BrowserRouter>
+        <App />
+        <WatsonChat />  
+    </BrowserRouter>
+);
 
 function Contenido() {
   const settings = {
